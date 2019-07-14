@@ -1,0 +1,4 @@
+---
+- import_playbook: playbooks/prerequisites.yml
+- import_playbook: playbooks/provision_kube_nodes.yml
+- import_playbook: playbooks/configure_master_node.yml
