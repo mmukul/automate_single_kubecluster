@@ -2,7 +2,7 @@
 - hosts: all
   vars:
    packages:
-   - docker*
+   - docker
    - kubeadm
    - kubectl
    - kubelet
