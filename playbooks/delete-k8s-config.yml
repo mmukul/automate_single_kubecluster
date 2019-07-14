@@ -6,6 +6,7 @@
    - kubeadm
    - kubectl
    - kubelet
+   - yum-utils
 
   tasks:
    - name: Remove Kubernetes repo
